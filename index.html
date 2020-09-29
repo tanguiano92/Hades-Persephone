@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
-
+    <meta charset="utf-8">
+    <title>Hello, WebVR! • A-Frame</title>
+    <meta name="description" content="Hello, WebVR! • A-Frame">
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/@webcomponents.com/webcomponentsjs@2.1.3/webcomponents-loader.js"></script>
+     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+     <script src="https://unpkg.com/resize-observer-polyfill@1.5.1/dist/ResizeObsefrver.js"></script>
+    <style>
+      model-viewer {
+        margin: auto;
+        width: 100%;
+        height: 600px;
+        
+      }
+      p{
+        color: red;
+        text-align: center;
+      }
+      h1{
+        font-style: cursive;
+        color: blue;
+        tet-align: center;
+        }
+    </style>
   </head>
   <body>
-    <h1>Hades & Persephone</h1>
-    <script src="sketch.js"></script>
+    <h1>
+      Life and Death
+    </h1>
+    <model-viewer src ="https://cdn.glitch.com/6a72b3af-d194-4c22-a3c0-3ce8225ecad1%2FAnyConv.com__DEATH.glb?v=1601349596180" 
+                  alt="A Flower Graveyard"
+                  auto-rotate>
+    </model-viewer>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
+    <script type="nomodule" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+    
+    
   </body>
 </html>
