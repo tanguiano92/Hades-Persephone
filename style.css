@@ -3,3 +3,11 @@ body {
   margin: 0;
   overflow: 0;
 }
+#navigation li {
+  font-size: 13pt;
+  float: left;
+  padding:15px;
+  list-style-type: none;
+  background-color: green;
+  margin-right: 20px;
+}
