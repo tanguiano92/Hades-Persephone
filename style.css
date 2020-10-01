@@ -3,8 +3,8 @@
 .sidebar {
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: #f1f1f1;
+  width: 400px;
+  background-color: pink;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -13,14 +13,14 @@
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color: black;
+  color: blue;
   padding: 16px;
   text-decoration: none;
 }
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #4CAF50;
+  background-color: green;
   color: white;
 }
 
